@@ -22,7 +22,7 @@ int main(){
             b[a[j]] = 1;
         }
         for (int j = 0; j < k;j++&&flag)
-            for (int l = 0; l < mp[a[j]].size();l++&&flag)
+            for (unsigned int l = 0; l < mp[a[j]].size();l++&&flag)
                 if(b[mp[a[j]][l]] == 1)
                     flag = false;
         if(flag)
